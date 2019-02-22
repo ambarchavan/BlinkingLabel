@@ -13,7 +13,7 @@
 		96EAB972C000A29392EF934E95031757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B2831D6CA532282BF6D583A28C646EDA /* BlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3989AF9AED092AE79557A110DF4D23B /* BlinkingLabel-dummy.m */; };
 		CB29B71362AB16CD544B1409E3BB35FC /* BlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B43A07FE22F16252A963C68B37B978 /* BlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA5C156E221FFDBD00942A51 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C156D221FFDBD00942A51 /* BlinkingLabel.swift */; };
+		FA5C157022200DE700942A51 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C156F22200DE700942A51 /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		D1B251B4C9B2E2340BB8134DB477A650 /* BlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		EE6F60C5ACD861817E1B9F4B02ED0421 /* Pods-BlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		F0FF6FF1CDEB04DDA20ED75C71405F9B /* Pods-BlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA5C156D221FFDBD00942A51 /* BlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = BlinkingLabel/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
+		FA5C156F22200DE700942A51 /* BlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = BlinkingLabel/BlinkingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 			children = (
 				D4E5F7DF74413FBD06D22CBB700A0E5B /* Pod */,
 				0D899D7E4BE99C90F7660D5D40901B93 /* Support Files */,
-				FA5C156D221FFDBD00942A51 /* BlinkingLabel.swift */,
+				FA5C156F22200DE700942A51 /* BlinkingLabel.swift */,
 			);
 			name = BlinkingLabel;
 			path = ../..;
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5C156E221FFDBD00942A51 /* BlinkingLabel.swift in Sources */,
+				FA5C157022200DE700942A51 /* BlinkingLabel.swift in Sources */,
 				B2831D6CA532282BF6D583A28C646EDA /* BlinkingLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
