@@ -8,7 +8,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "BlinkingLabel"
-s.version          = "0.3.0"
+s.version          = "0.1.0"
 s.summary          = "A subclass on UILabel that provides a blink."
 s.swift_version    = "4.2"
 s.description      = <<-DESC
